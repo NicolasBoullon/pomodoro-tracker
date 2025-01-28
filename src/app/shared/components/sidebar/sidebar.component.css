@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  min-width: 50px;
+  width: 50px;
+  max-width: 300px;
+  position: absolute;
+}
+
+.main-button {
+  .row,
+  .col,
+  button {
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+  }
+  fa-icon {
+    font-size: 23px;
+  }
+  .col {
+    max-width: 50px;
+  }
+}

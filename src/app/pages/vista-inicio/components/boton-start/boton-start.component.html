@@ -1,0 +1,14 @@
+<button class="btn-empezar primario-oscuro ps-4 pe-4" (click)="ToggleIniciar()">
+  <p
+    *ngIf="!this.estadoTimer"
+    class="d-flex align-items-center justify-content-center m-0"
+  >
+    Iniciar
+  </p>
+  <p
+    *ngIf="this.estadoTimer"
+    class="d-flex align-items-center justify-content-center m-0"
+  >
+    Frenar
+  </p>
+</button>

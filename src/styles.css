@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --color-primario: #b9b799;
+  --color-primario-oscuro: #96957c;
+  --color-primario-claro: rgb(202, 201, 166);
+}
+
+.primario {
+  background-color: var(--color-primario);
+}
+.primario-oscuro {
+  background-color: var(--color-primario-oscuro);
+}
+.primario-claro {
+  background-color: var(--color-primario-claro);
+}

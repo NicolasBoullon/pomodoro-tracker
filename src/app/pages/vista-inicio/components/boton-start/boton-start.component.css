@@ -1,0 +1,10 @@
+.btn-empezar {
+  font-size: 55px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  border: var(--color-primario-claro) 3px solid;
+  border-radius: 8px;
+}

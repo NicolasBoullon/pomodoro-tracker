@@ -1,0 +1,9 @@
+<div class="container-fluid d-flex primario">
+  <app-sidebar></app-sidebar>
+  <div
+    class="d-flex justify-content-center w-100 flex-column align-items-center h-100 primario"
+  >
+    <app-temporizador [toggleTimer]="toggleTimer"></app-temporizador>
+    <app-boton-start (toggleTimer)="ToggleTimer($event)"></app-boton-start>
+  </div>
+</div>

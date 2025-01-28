@@ -1,0 +1,15 @@
+.temporizador {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  border: var(--color-primario-claro) 3px solid;
+  border-radius: 8px;
+  border-bottom: 10px solid var(--color-primario-claro);
+}
+
+.container-fluid {
+  height: 400px;
+  width: 700px;
+}
